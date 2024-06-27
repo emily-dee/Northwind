@@ -5,7 +5,11 @@ SELECT * FROM customers;
 SELECT DISTINCT country FROM customers;
 
 -- 3
+<<<<<<< HEAD
 SELECT * FROM customers WHERE customer_id LIKE 'BL%'
+=======
+SELECT * FROM customers WHERE customer_id LIKE 'BL%';
+>>>>>>> b2d7109 (missed semicolons)
 
 -- 4
 SELECT * FROM orders LIMIT 100;
@@ -36,7 +40,11 @@ SELECT AVG(quantity), MAX(quantity), MIN(quantity) FROM order_details;
 SELECT AVG(quantity), MAX(quantity), MIN(quantity), COUNT(quantity) FROM order_details GROUP BY order_id;
 
 -- 13
+<<<<<<< HEAD
 SELECT customer_id FROM orders WHERE order_id=10290
+=======
+SELECT customer_id FROM orders WHERE order_id=10290;
+>>>>>>> b2d7109 (missed semicolons)
 
 -- 14 
 -- INNER JOIN
